@@ -13,7 +13,7 @@
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="assets/stylesheet/styles.css">
 </head>
-<body>
+<body id="top">
     <!-- HERO SECTION -->
     <section class="hero-section">
        <div class="container">
@@ -122,7 +122,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </article>
             <article class="skills-article flex">
-                <div class="skill-details">
+                <aside class="skill-details">
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Facere quaerat deserunt sit incidunt at fugit recusandae 
@@ -139,21 +139,87 @@
                         atque nobis repellendus tempore fugiat!
                     </p>
                     <p>
-                        Please visit <a href="#">Too Css</a> to see collection of free 
+                        Please visit <a href="#" class="red">Too Css</a> to see collection of free 
                         HTML CSS templates for your websites. Shameless drowsy kiss to 
                         in through parting from any. Or he from to which none was his. 
                         Tear grief and mine did chill sore companie muse present, if 
                         but there bower companie, sore lay he and and spoiled earthly 
                         childe them, he heartless nine rhyme thou thou shun her to,.
                     </p>
-                </div>
-                <div class="progress">
-                    <meter value="0.7">
-                        <span>Photoshop 90%</span>
+                </aside>
+                <aside class="progress">
+                      <meter id="percent-90" class="progress-bar" value="90" min="0" max="100">PHOTOSHOP 90%
+                      </meter>
+                      <label for="photoshop" class="progress-label">PHOTOSHOP 90%</label>
+                      <meter id="percent-80" class="progress-bar" value="80" min="0" max="100">HTML CSS 80%
                     </meter>
-                </div>
+                    <label for="HTML CSS" class="progress-label">HTML CSS 80%</label>
+                    <meter id="percent-70" class="progress-bar" value="70" min="0" max="100">DEVELOPMENT 70%
+                    </meter>
+                    <label for="DEVELOPMENT" class="progress-label">DEVELOPMENT 70%</label>
+                    <meter id="percent-80" class="progress-bar" value="80" min="0" max="100">MARKETING 80%
+                    </meter>
+                    <label for="MARKETING" class="progress-label">MARKETING 80%</label>
+                </aside>
+            </article>
+        </section>
+        <section class="contact container">
+            <article class="section-title">
+                <h3>Contact</h3>
+                <p>Send a message to us </p>
+            </article>
+            <article class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13503.678733325312!2d76.
+                3535986!3d32.2063948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71ff0cae0784712d!2sAltCampus
+                %20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1614581467395!5m2!1sen!2sin" width="90%" 
+                height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+            <article class="contact-details flex">
+                <aside class="contact-info">
+                    <p> 
+                        Flex Template is basedx on Bootstrap v3.1.1 and it is provided by 
+                        <a href="#" class="blue">template<span class="green">mo</span></a> for free 
+                        of charges. Slider images and portfolio images are from <a href="#" class="red">Unsplash</a> website.
+                        Please tell your fiends about our <b>TemplateMo website</b>.
+                    </p>
+                    <p>
+                        Turko kapo tiamaniere la transdonis malbonan turko la. Mia ili ilin la bone alportis 
+                        vi diri, la helpon mi por kiel tiu multe tauxgas enboatigxis, renkonti diris venis 
+                        viroj la la prave, la tial terbordon cxar al ili. Ni li mejlojn da renkontis estas 
+                        vojon fine la, el ni eltrovis.
+                    </p>
+                    <p>
+                        All his wind for the i he, eagerly into over uttered this, gently tapping surely 
+                        wandering unmerciful raven is of. The god soul it gently my maiden. Of grave wore 
+                        what mefilled or till me throws. Burden forgiveness but upstarting craven was the 
+                        balm metell of. More bird chamber thy what seat still ungainly presently. Horror 
+                        thee seeing said he here is of. Nepenthe was it turning the presently door.
+                    </p>
+                    <address>
+                        Phone: 033-0333-0660
+                        <br>
+                        Email: <a href="mailto:info@company.com" class="red">info@company.com</a>
+                        <br>
+                        Address: 880 De Best Studio, Fork Street, San Francisco
+                    </address>
+                </aside>
+                <aside class="contact-form">
+                    <textarea name="Your Name" rows="1" placeholder="Your Name"></textarea>
+                    <textarea name="Your Email" rows="1" placeholder="Your Email"></textarea>
+                    <textarea name="Subject" rows="1" placeholder="Subject"></textarea>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button class="send-message btn">
+                        <a href="#">Send Message</a>
+                    </button>
+                </aside>
             </article>
         </section>
     </main>
+    <footer class="footer conatiner flex">
+      <small class="small">&copy;2021,Shishupal Kumar, Design:Templatemo</small>
+      <button class="btn">
+          <a href="#top">BACK TO TOP</a>
+      </button>
+    </footer>
 </body>
 </html>

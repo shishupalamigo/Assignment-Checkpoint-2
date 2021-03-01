@@ -71,6 +71,8 @@ body{
     justify-content: center;
     align-items: center;
 } 
+/* HOME PAGE STYLES STARTS HERE */
+
 /* HERO SECTION */
 .hero-section {
     height: 80vh; 
@@ -84,7 +86,8 @@ body{
 /* SOCIAL MEDIA */
 .icon-nav{
     text-align: center;
-    padding-top: 1em;    
+    padding-top: 1em;
+    margin-bottom: 6em;    
 }
 .icon-nav a {
     text-decoration: none;
@@ -104,9 +107,15 @@ body{
 /* HEAADER */
 .page-header {
     background-color: #fff;
-    width: 80vw;
-    margin: 1em auto 3em auto;
+    width: 86vw;
+    /* margin: 1em auto 3em auto; */
     justify-content: space-between;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    margin-top: -40px;
+    margin-left: -43vw;
+
 }
 .page-header img {
    width: 80px;
@@ -135,7 +144,7 @@ body{
 /*  TITLE AND TAG LINE */
 .tag-line {
      text-align: center;
-     margin-top: 6em;
+     margin-top: 14em;
 }
 .tag-line h2 {
     font-size: 2.5em;
@@ -238,7 +247,7 @@ body{
 .team-pics {
     width: 90vw;
     justify-content: space-evenly;
-    margin: 6em auto;
+    margin: 3em auto;
 }
 .team-pics img {
     width: 22%;
@@ -246,6 +255,10 @@ body{
     border-radius: 50%;
 }
 /* SKILLS SECTION */
+.skills-article {
+   margin: 4em auto;
+}
+/* SKILL DETAILS */
 .skills-section-title {
     text-align: center;
     font-style: italic;
@@ -260,8 +273,108 @@ body{
 .skills-section-title p {
     color: grey;
 }
-/* PROGRESS BAR */
+/* SKILL DETAILS */
+.skill-details {
+    width: 60%;
+}
+/* RED ANCHOR TAG */
+.red {
+    text-decoration: none;
+    color: red;
+}
+.skill-details p {
+    margin-bottom: 1em;
+}
+/* PROGRESS BAR  DESIGN*/
+.progress {
+    width: 30%;
+    margin-left: 2em;
+}
+meter {
+    margin-top: 1em;
+    width: 100%;
+    border: 1px solid #7F7F7F;
+    margin-bottom: .5em;
+}
+meter::-webkit-meter-bar {
+    background: none;
+    background-color: #999;
+    border-radius: 0;
+    height: 7vh;
+}
+meter::-webkit-meter-optimum-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+    background-image: linear-gradient(
+      90deg, 
+      #ea513e 0%,
+      #ea513e 100%, 
+      #999 100%,
+      #999 100%  
+    );
+    background-size: 100% 100%;
+  }
+.progress-label {
+    position: relative;
+    top: -.75em;
+    left: 1em;
+    color: #fff;
+    font-weight: 600;
+}
 
+/* CONTACT SECTION  */
+/* MAP */
+.map {
+    margin: 2em auto;
+    text-align: center;
+}
+/* CONTACT DETAILS */
+.contact-details {
+    margin: 3em auto;
+}
+.contact-info {
+    width: 55%;
+}
+.contact-info p {
+    margin-bottom: 2em;
+    color: #7F7F7F;
+}
+address {
+    color: #7F7F7F;
+}
+.blue {
+    text-decoration: none;
+    color: #1d6ed8;
+}
+.green {
+    color: green;
+}
+b {
+    font-weight: 900;
+}
+/* CONTACT FORM */
+.contact-form {
+    width: 30%;
+    margin-left: 3em;
+}
+textarea {
+    padding: 1em;
+    margin: 1em auto;
+    width: 100%;
+}
+.send-message {
+    width: 100%;
+}
+/* HOME PAGE FOOTER */
+.footer{
+    margin: 3em 1em 0 1em;
+    justify-content: space-between;
+}
+.footer .small {
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+/* HOME PAGE STYLES ENDS HERE */
 
 
 
