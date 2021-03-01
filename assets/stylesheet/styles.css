@@ -101,14 +101,13 @@ body{
     margin-left: .5em;
 }
 .icon-nav a i {
-    color: black;
+    color: rgb(29, 29, 29);
     vertical-align: bottom;
 }
-/* HEAADER */
+/* HEADER */
 .page-header {
     background-color: #fff;
     width: 86vw;
-    /* margin: 1em auto 3em auto; */
     justify-content: space-between;
     position: fixed;
     left: 50%;
@@ -181,6 +180,8 @@ body{
 .circle-1 {
     background-color: black;
 }
+/* MAIN CONTENT STYLES */
+
 /* SERVICES SECTION  */
 
 /* SECTION TITLES */
@@ -379,4 +380,83 @@ textarea {
 
 
 
+/* GALLERY PAGE STYLES STARTS HERE */
 
+/* DASHBOARD */
+.dashboard {
+  width: 30%;
+  height: 100vh;
+  background-color: #EA513E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.dashboard-header {
+    width: 100%;
+    justify-content: space-between;
+}
+.dashboard-header h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: .15em;
+}
+.dashboard-header a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em;
+    box-shadow: inset 2px 2px 4px;
+}
+.dashboard h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding: 1.5em 2em;
+    text-align: left;
+}
+.dashboard p {
+    color: rgb(24, 23, 23);
+    text-align: left;
+    padding: 1em 2em;
+}
+.dashboard .icon-nav a {
+    background-color: #EA513E;
+    border: 2px solid #fff;  
+}
+.dashboard .icon-nav a i {
+    color: #fff;
+}
+.dashboard .icon-nav {
+    margin-bottom: 1em;
+}
+/* GALLERY */
+
+.gallery {
+    width: 65%;
+    margin-left: 30%;
+}
+.gallery h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: .5em 0 1em 0 ;
+}
+/* GALLERY COLUMNS */
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 1em;
+    align-self: flex-start;
+}
+.col img {
+    margin-bottom: 2em;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
