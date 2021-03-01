@@ -336,12 +336,17 @@ meter::-webkit-meter-optimum-value {
     width: 55%;
 }
 .contact-info p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: #7F7F7F;
 }
-address {
+.address {
     color: #7F7F7F;
+    font-style: italic;
 }
+.address p {
+    margin-bottom: 0;
+}
+
 .blue {
     text-decoration: none;
     color: #1d6ed8;
@@ -357,10 +362,15 @@ b {
     width: 30%;
     margin-left: 3em;
 }
-textarea {
+input {
     padding: 1em;
     margin: 1em auto;
     width: 100%;
+}
+textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 1em auto;
 }
 .send-message {
     width: 100%;
